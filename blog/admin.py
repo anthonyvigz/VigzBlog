@@ -1,3 +1,7 @@
 from django.contrib import admin
 
-# Register your models here.
+# This allows the models to be viewed and edited in admin.
+
+from .models import Post
+
+admin.site.register(Post)
